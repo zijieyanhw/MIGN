@@ -1,7 +1,7 @@
 ---
 title: Markdown Basic Elements
 description: 测试 Markdown 基本元素
-
+cover: images/cover/cover2.webp
 date: 2022-06-09T20:12:52+08:00
 lastmod: 2022-06-09T20:12:52+08:00
 tags:
@@ -11,10 +11,10 @@ categories:
   - test
 math: true
 mermaid: true
-photos:
-  - https://d-sketon.top/img/backwebp/bg1.webp
-  - https://d-sketon.top/img/backwebp/bg2.webp
-  - https://d-sketon.top/img/backwebp/bg3.webp
+#photos:
+#  - https://d-sketon.top/img/backwebp/bg1.webp
+#  - https://d-sketon.top/img/backwebp/bg2.webp
+#  - https://d-sketon.top/img/backwebp/bg3.webp
 ---
 
 ## Markdown 基本元素
