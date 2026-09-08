@@ -422,10 +422,10 @@ utterances:
 ########################################
 
 algolia_search:
-  enable: false
-  appID:
-  apiKey:
-  indexName:
+  enable: true
+  appID: 40VAA9DHN3
+  apiKey: 367abea05d324c7dfc9e005797166526
+  indexName: algolia
   hits:
     per_page: 10
 
@@ -574,10 +574,10 @@ share:
 
 # show categories card on home page
 home_categories:
-  enable: false
+  enable: true
   content:
-    - categories: # string (single-layer category) or array (multi-layer category)
-      cover: # empty means random cover
+    - categories: Test # string (single-layer category) or array (multi-layer category)
+      cover: images/cover/cover2.webp # empty means random cover
     - categories:
       cover:
 
