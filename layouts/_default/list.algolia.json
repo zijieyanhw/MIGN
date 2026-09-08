@@ -4,7 +4,7 @@
   {{ if $index }}, {{ end }}
   {
     "objectID": "{{ sha1 .RelPermalink }}",
-    "permalink": "{{ .RelPermalink | absURL }}",
+    "permalink": "{{ printf "%s%s" .Site.BaseURL (strings.TrimPrefix "/" .RelPermalink) }}",
     "title": {{ .Title | jsonify }},
     {{- if gt .WordCount $limit -}}
     "content": {{ .Plain | truncate $limit | jsonify | safeJS }},
