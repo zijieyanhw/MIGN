@@ -1,6 +1,6 @@
 baseURL = 'https://zijieyanhw.github.io/MIGN/'
 languageCode = 'zh-CN'
-title = 'My New Hugo Site'
+title = 'My IGN Site'
 theme = 'reimu'
 
 # 添加这些配置

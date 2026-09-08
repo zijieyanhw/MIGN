@@ -14,9 +14,9 @@ menu:
   - name: about
     url: "about"
     icon:
-  - name: friend
-    url: "friend"
-    icon:
+#  - name: friend
+#    url: "friend"
+#    icon:
 
 mainSections: ["post"]
 # 年，月，日及时间的格式化样式
@@ -26,10 +26,10 @@ monthFormat: "2006-01"
 dateFormat: "2006-01-02"
 timeFormat: "2006-01-02 15:04:05"
 
-author: D-Sketon
-email: xxx@example.com
-description: "少女祈祷中..."
-subtitle: "少女祈祷中..."
+author: zijie
+email: yan.helloworld@outlook.com
+description: ""
+subtitle: ""
 
 banner: "images/banner.webp"
 # You can also write it in the form of the following url
@@ -576,10 +576,10 @@ share:
 home_categories:
   enable: true
   content:
-    - categories: Test # string (single-layer category) or array (multi-layer category)
-      cover: images/cover/cover2.webp # empty means random cover
-    - categories:
-      cover:
+    - categories: 动漫 # string (single-layer category) or array (multi-layer category)
+      cover: images/cover/homeCate_anime.webp # empty means random cover
+    - categories: 游戏
+      cover: images/cover/homeCate_game.webp
 
 ########################################
 # Experimental features
